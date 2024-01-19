@@ -3,6 +3,7 @@ import Home from './components/Home.jsx';
 import Navbar from './components/Navbar.jsx';
 import Services from './components/Services.jsx';
 import About from './components/About.jsx';
+import Products from './components/Products.jsx';
 
 
 import './App.css'
@@ -15,6 +16,7 @@ function App() {
    <Home/>
    <Services/>
    <About/>
+   <Products/>
    </>
   )
 }
