@@ -52,7 +52,7 @@ const Navbar = () => {
          {/* nav items for large devices */}
          <ul className="md:flex space-x-12 hidden">
              {
-             navItems.map(({link, path}) => <Link key={path} spy={true} smooth={true} offset={-100} to={path} className="block text-base text-grey900 hover:text-brandPrimary first:font-medium">{link}</Link> )
+             navItems.map(({link, path}) => <Link key={path} spy={true} smooth={true} offset={-100} to={path} className="block cursor-pointer text-base text-grey900 hover:text-brandPrimary first:font-medium">{link}</Link> )
              }
          </ul>
           
