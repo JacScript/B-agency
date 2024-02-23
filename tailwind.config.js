@@ -13,6 +13,9 @@ export default {
         'brandPrimary':'#4CAF4F',
         'neutralGrey':'#717171',
         'grey900':'#18191F',
+      },
+      backgroundImage: {
+        'banner-pattern': "url('/src/assets/bggrains.jpg')",
       }
     },
   },
