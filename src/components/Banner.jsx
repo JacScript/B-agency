@@ -25,9 +25,11 @@ const Banner = () => {
 
                   </div>
 
-          <div className=" w-1/3 h-full mt-5 ">
-             <div className=" relative mt-12">
-               <h2 className="text-xl font-semibold text-white uppercase text-center mb-12">Selet a product to Buy/Sell</h2>
+          <div className=" w-1/3 h-full mt-5">
+             <div className=" relative mt-12 flex flex-col">
+              <div className="mb-20">
+               <h2 className="text-xl font-semibold text-white uppercase text-center">Selet a product to Buy/Sell</h2>
+               </div>
 
 
                <div className="mt-12 w-full  h-60 absolute inset-0  mx-auto my-auto grid grid-cols-3 gap-4">
@@ -51,10 +53,13 @@ const Banner = () => {
                    <p className="text-center mt-2 text-white font-bold uppercase text-sm">Maize</p></a>
                </div>
                </div>
-               <div></div>
 
+
+               <div className="bg-red-900 h-20 w-full self-end mb-0"></div>
 
              </div>
+
+
           </div>
         </div>
       </div>
