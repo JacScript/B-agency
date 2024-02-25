@@ -25,18 +25,34 @@ const Banner = () => {
 
                   </div>
 
-          <div className=" w-1/3  h-full mt-5 ">
+          <div className=" w-1/3 h-full mt-5 ">
              <div className=" relative mt-12">
                <h2 className="text-xl font-semibold text-white uppercase text-center mb-12">Selet a product to Buy/Sell</h2>
 
-              <div>
 
-               <div className="mt-12 bg-red-500  w-full  h-32 absolute inset-0  mx-auto my-auto ">
-                   <a> <img src="" alt="" /></a>
+               <div className="mt-12 w-full  h-60 absolute inset-0  mx-auto my-auto grid grid-cols-3 gap-4">
+               <div className="w-20 h-32">
+                   <a className="cursor-pointer"><img className="w-20 rounded-full bg-cover h-20" src="/src/assets/corn.jpg" alt="" />
+                   <p className="text-center mt-2 text-white font-bold uppercase text-sm">Maize</p></a>
+               </div>
+
+               <div className="w-20 h-32">
+                   <a className="cursor-pointer"><img className="w-20 rounded-full bg-cover h-20" src="/src/assets/corn.jpg" alt="" />
+                   <p className="text-center mt-2 text-white font-bold uppercase text-sm">Maize</p></a>
+               </div>
+
+               <div className="w-20 h-32">
+                   <a className="cursor-pointer"><img className="w-20 rounded-full bg-cover h-20" src="/src/assets/corn.jpg" alt="" />
+                   <p className="text-center mt-2 text-white font-bold uppercase text-sm">Maize</p></a>
+               </div>
+
+               <div className="w-20 h-32 col-start-2">
+                   <a className="cursor-pointer"><img className="w-20 rounded-full bg-cover h-20" src="/src/assets/corn.jpg" alt="" />
+                   <p className="text-center mt-2 text-white font-bold uppercase text-sm">Maize</p></a>
+               </div>
                </div>
                <div></div>
 
-              </div>
 
              </div>
           </div>
