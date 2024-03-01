@@ -13,7 +13,7 @@ const Services = () => {
              <div className="w-1/2 h-full bg-yellow-500 flex flex-col">
                  <div className="h-1/2 bg-blue-500 w-full"></div>
                  <div className="h-1/2 bg-white w-full">
-                 <ul class="list-image-[url(checkmark.png)]">
+                 <ul class="list-image-checkmark">
                       <li>Unlimited access to a global market from anywhere, at anytime.</li>
                       <li>A user-friendly platform that generates market opportunity for farmers and industry buyers.</li>
                       <li>Transparent and reliable market information, deal creation and negotiation</li>
