@@ -16,10 +16,7 @@ export default {
       },
       backgroundImage: {
         'banner-pattern': "url('/src/assets/bggrains.jpg')",
-      },
-      listStyleImage: {
-        checkmark: 'url("/src/assets/mark.png")',
-      },
+      }
     },
   },
   plugins: [require('flowbite/plugin')],
