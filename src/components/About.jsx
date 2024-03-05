@@ -3,7 +3,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className="max-w-screen-2xl mx-auto lg:h-screen" id="about">
+    <div className="max-w-screen-2xl mx-auto lg:h-full mt-24" id="about">
       <div className='w-full lg:w-4/5 lg:mx-auto bg-white lg:h-full lg:flex'>
            <div className='w-full mx-6 lg:mx-0 lg:w-1/2 lg:h-full'>
               <h1 className='kode-mono mt-12 uppercase text-center lg:text-left text-4xl font-semibold'><span className='text-brandPrimary'>How</span> it works</h1>
@@ -21,7 +21,7 @@ const About = () => {
                   </ul>
                </div>
            </div>
-           <div className='w-full mx-6 lg:mx-0 h-96 lg:w-1/2 lg:h-full bg-yellow-300'></div>
+           <div className='w-full mx-6 lg:mx-0 h-96 lg:w-1/2 mt-12 bg-yellow-300'></div>
       </div>
             
      </div>
