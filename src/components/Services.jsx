@@ -3,8 +3,8 @@ import React from "react";
 const Services = () => {
   return (
     <div className="max-w-screen-2xl mx-auto lg:h-screen" id="service">
-      <div className="text-center my-8">
-        <h2 className="text-4xl text-neutralDGrey font-semibold mb-2 uppercase">
+      <div className="text-center mt-24">
+        <h2 className="text-6xl kode-mono text-neutralDGrey font-semibold mb-2 uppercase">
           Our solution
         </h2>
         <h3 className="text-center m-8">Agri Marketplace is a digital B2B market solution that brings together Farmers and Industrial Buyers.</h3>       
