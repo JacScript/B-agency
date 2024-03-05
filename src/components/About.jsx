@@ -1,73 +1,31 @@
 import React from 'react';
-import aboutImg from "../assets/about1.png";
+
 
 const About = () => {
   return (
-    <div className='' > 
-        {/*  about text */}
-        <div className='px-4 py-12 lg:px-14 max-w-screen-2xl mx-auto my-8 ' id="about">
-            <div className='md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12 '>
-                <div>
-                    <img src={aboutImg} alt=''/>
-                </div>
-                <div className='md:w-3/5 mx-auto'>
-                    <h2 className='text-4xl text-neutralDGrey font-semibold mb-4 md:w-4/5'>The unseen of spending three years at Pixelgrade</h2>
-                    <p className='md:w-11/12 text-sm text-neutralDGrey mb-8'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
-                    <button className='btn-primary'>Learn More</button>
-                </div>
-            </div>
-        </div>
-
-        {/* company stats */}
-       <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto bg-neutralSilver py-16'>
-          <div className='flex flex-col md:flex-row justify-between items-center gap-8' >
-             <div className='md:w-1/2'>
-             <h2 className='text-4xl text-neutralDGrey font-semibold mb-4 md:w-2/3'>Helping a local <br/> <span className='text-brandPrimary'>business reinvent itself</span></h2>
-                    <p>We reached here with our hard work and dedication</p>
-             </div>
-
-               {/* stats */}
-             <div className='md:w-1/2 mx-auto flex sm:flex-row flex-col sm:items-center justify-around gap-12'>
-                <div className='space-y-8 '>
-                    <div className='flex items-center gap-4'>
-                        <img src="/src/assets/icons/member.png" alt="" />
-                        <div>
-                            <h4 className='text-2xl text-neutralDGrey font-semibold'>2,245,341</h4>
-                            <p>Members</p>
-                        </div>
-                    </div>
-
-                    <div className='flex items-center gap-4'>
-                        <img src="/src/assets/icons/event.png" alt="" />
-                        <div>
-                            <h4 className='text-2xl text-neutralDGrey font-semibold'>828,867</h4>
-                            <p>Events Booking</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div className='space-y-8 '>
-                    <div className='flex items-center gap-4'>
-                        <img src="/src/assets/icons/club.png" alt="" />
-                        <div>
-                            <h4 className='text-2xl text-neutralDGrey font-semibold'>46,328</h4>
-                            <p>Clubs</p>
-                        </div>
-                    </div>
-
-                    <div className='flex items-center gap-4'>
-                        <img src="/src/assets/icons/member.png" alt="" />
-                        <div>
-                            <h4 className='text-2xl text-neutralDGrey font-semibold'>1,926,436</h4>
-                            <p>Payments</p>
-                        </div>
-                    </div>
-                </div>
-             </div>
-          </div>
-       </div>
-
-    </div>
+    <div className="max-w-screen-2xl mx-auto lg:h-screen" id="about">
+      <div className='w-full lg:w-4/5 lg:mx-auto bg-white lg:h-full lg:flex'>
+           <div className='w-full mx-6 lg:mx-0 lg:w-1/2 lg:h-full'>
+              <h1 className='kode-mono mt-12 uppercase text-center lg:text-left text-4xl font-semibold'><span className='text-brandPrimary'>How</span> it works</h1>
+              <h2 className='text-2xl uppercase font-semibold mt-2 text-center lg:text-left'>TAKE A LOOK AT OUR <span className='text-brandPrimary'>PLATFORM DEMO</span></h2>
+               <div className='ml-12 mt-4 pr-5 '>
+                  <ul className='list-decimal text-xl'>
+                    <li className='mb-2'> Sign-up to the platform</li>
+                    <li className='mb-2'>Create your offer or bid</li>
+                    <li className='mb-2'> Set a quantity & price</li>
+                    <li className='mb-2'>Provide us with crop characteristics & details</li>
+                    <li className='mb-2'>Decide upon your preferred incoterm</li>
+                    <li className='mb-2'>Decide upon logistic and/or crop quality check services</li>
+                    <li className='mb-2'>Post your seller offer or buyer bid</li>
+                    <li className='mb-2'>Stay updated by email or notification centre</li>
+                  </ul>
+               </div>
+           </div>
+           <div className='w-full mx-6 lg:mx-0 h-96 lg:w-1/2 lg:h-full bg-yellow-300'></div>
+      </div>
+            
+     </div>
+    
   )
 }
 
