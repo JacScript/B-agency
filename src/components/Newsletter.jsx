@@ -2,28 +2,17 @@ import React from 'react'
 
 const Newsletter = () => {
   return (
-    < div className='px-4 lg:px-14 max-w-screen-2xl mx-auto bg-neutralSilver py-16'>
-      <div className='flex items-center justify-center lg:w-2/3 mx-auto'>
-      <div className='text-center'>
-        <h2 className='lg:text-5xl text-3xl text-neutral-800 font-semibold mb-4 lg:leading-snug'>How to design your site footer like we do!</h2>
-        <div className='felx items-center justify-center gap-8'>
-            <button className='btn-primary text-white'>Get a Demo
-            <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="18"
-                        height="12"
-                        viewBox="0 0 6 4"
-                        fill="none"
-                        className="inline-block ml-2"
-                      >
-                        <path
-                          d="M4.02324 3.24222L5.12263 2.14283C5.25301 2.01245 5.25301 1.80106 5.12263 1.67068L4.02324 0.571289M5.02484 1.90676L0.350708 1.90676"
-                          stroke="white"
-                        />
-                      </svg></button>
-        </div>
-      </div>
-      </div>
+    < div className='w-full lg:max-w-screen-2xl lg:h-screen mx-auto bg-neutralSilver '>
+      <div className='lg:w-4/5 lg:mx-auto lg:h-full pt-12'>
+         <div className="mb-4 w-4/5 mx-auto">
+            <h1 className="text-center text-neutralDGrey text-6xl kode-mono uppercase font-semibold mb-4 ">our services</h1>
+            <p className="px-12 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, reprehenderit. Quod, magnam! Dolorem expedita iure quo aspernatur itaque deleniti labore ea veritatis autem vel aut quidem ad numquam, animi magnam nam repellat nihil sequi explicabo quibusdam quod dolor eligendi optio reiciendis. Dolorem corporis tenetur temporibus minima fugit quo sint distinctio.
+            </p>
+          </div>
+          <div className='w-full h-96 mt-12'>
+              <img className='h-full w-4/5 mx-auto object-cover' src="../src/assets/blog2.jpg" alt="" />
+          </div>
+          </div>
     </div>
   )
 }
