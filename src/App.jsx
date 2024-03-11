@@ -1,5 +1,6 @@
 import React from 'react';
 import Home from './pages/Home.jsx';
+import Market from './pages/Market.jsx';
 
 
 
@@ -9,7 +10,8 @@ function App() {
     
   return (
     <>
-      <Home/>
+      {/* <Home/> */}
+      <Market/>
     </>
   )
 }
