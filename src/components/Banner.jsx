@@ -47,23 +47,23 @@ const Banner = () => {
 
                <div className="mt-12 w-full h-72 absolute inset-0 px-8 gap-12 grid grid-cols-3 font-neutralGrey sm:max-lg:mt-8 sm:max-lg:grid sm:max-2xl:grid-cols-2">
                <div className="w-20 h-32">
-                   <a className="cursor-pointer"><img className="w-20 rounded-full bg-cover h-20" src="/src/assets/corn.jpg" alt="" />
-                   <p className="text-center mt-2 md:text-white font-bold uppercase text-sm">Maize</p></a>
+                   <a className="cursor-pointer"><img className="w-20 rounded-full bg-cover h-20 object-cover" src="/src/assets/corn.jpg" alt="" />
+                   <p className="text-center mt-2 md:text-white font-bold uppercase text-xs">Grains</p></a>
                </div>
 
                <div className="w-20 h-32">
-                   <a className="cursor-pointer"><img className="w-20 rounded-full bg-cover h-20" src="/src/assets/corn.jpg" alt="" />
-                   <p className="text-center mt-2 md:text-white font-bold uppercase text-sm">Maize</p></a>
+                   <a className="cursor-pointer"><img className="w-20 rounded-full bg-cover h-20 object-cover" src="/src/assets/nuts.jpg" alt="" />
+                   <p className="text-center mt-2 md:text-white font-bold uppercase text-xs">nuts</p></a>
                </div>
 
                <div className="w-20 h-32">
-                   <a className="cursor-pointer"><img className="w-20 rounded-full bg-cover h-20" src="/src/assets/corn.jpg" alt="" />
-                   <p className="text-center mt-2 md:text-white font-bold uppercase text-sm">Maize</p></a>
+                   <a className="cursor-pointer"><img className="w-20 rounded-full bg-cover h-20 object-cover" src="/src/assets/green-coffee.jpg" alt="" />
+                   <p className="text-center mt-2 md:text-white font-bold uppercase text-xs">green coffee</p></a>
                </div>
 
                <div className="w-20 h-32 col-start-2">
-                   <a className="cursor-pointer"><img className="w-20 rounded-full bg-cover h-20" src="/src/assets/corn.jpg" alt="" />
-                   <p className="text-center mt-2 md:text-white font-bold uppercase text-sm">Maize</p></a>
+                   <a className="cursor-pointer"><img className="w-20 rounded-full bg-cover h-20 object-cover" src="/src/assets/olive-oil.jpg" alt="" />
+                   <p className="text-center mt-2 md:text-white font-bold uppercase text-xs">olive oil and others</p></a>
                </div>
                </div>
 
