@@ -23,7 +23,9 @@ const About = () => {
                   </ul>
                </div>
            </div>
-           <div className='mx-6 lg:mx-0 h-96 my-auto lg:w-1/2 mt-12 bg-yellow-300'></div>
+           <div className='mx-6 lg:mx-0 h-96 my-auto lg:w-1/2 mt-12 bg-yellow-300'>
+              <div> <img className='h-full w-full object-cover' src='/src/assets/laptop.jpg'/> </div>
+           </div>
       </div>
             
      </div>

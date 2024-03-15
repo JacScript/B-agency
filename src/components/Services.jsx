@@ -34,7 +34,9 @@ const Services = () => {
                                <li className="mb-2">Transparent and reliable market information, deal creation and negotiation.</li>
                              </ul>
                            </div>
-                           <div className="h-96 sm:max-lg:m-4 lg:w-1/2 lg:h-full bg-blue-700 "></div>
+                           <div className="m-5 lg:m-0 h-96 sm:max-lg:m-4 lg:w-1/2 lg:h-full">
+                           <div className="w-4/6 mx-auto h-4/5"><img className=" object-cover" src="/src/assets/venn-diagram.png" /></div>
+                        </div>
                      </div>
                      
                 </div>
